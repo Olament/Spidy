@@ -21,3 +21,10 @@ crawler.Run(
 	ParseFunc: parser.Parse,
 })
 ```
+
+## Features to implement
+- [ ] More choice of UA
+- [ ] Improve performance of Schedule
+- [ ] Implement Parser
+- [ ] Implement Pipeline
+
