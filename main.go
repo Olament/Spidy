@@ -15,5 +15,9 @@ func main() {
 	crawler.Run(controller.Request{
 		"www.google.com",
 		parser.Parse,
+	},
+	controller.Request{
+		Url:       "www.bing.com",
+		ParseFunc: parser.Parse,
 	})
 }
