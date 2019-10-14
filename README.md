@@ -3,7 +3,7 @@ A simple concurrent golang web crawler
 
 Notice that this crawler is work-in-progress. Many core features may subject to change in the the future. Please use with caution.
 
-## Example
+## Quick start
 From `main.go`
 ```golang
 crawler := controller.Controller {
