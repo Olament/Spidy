@@ -12,11 +12,12 @@ func main() {
 		10,
 	}
 
-	crawler.Run(controller.Request{
-		"www.google.com",
-		parser.Parse,
+	crawler.Run(
+		controller.Request{
+		Url:       "www.google.com",
+		ParseFunc: parser.Parse,
 	},
-	controller.Request{
+		controller.Request{
 		Url:       "www.bing.com",
 		ParseFunc: parser.Parse,
 	})
